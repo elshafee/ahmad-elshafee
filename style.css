@@ -1208,7 +1208,7 @@ button {
   right: 14px;
   background: rgba(12, 19, 34, 0.85);
   border: 1px solid var(--border-subtle);
-  color: var(--text-primary);
+  color: #f8fafc;
   font-size: 0.75rem;
   font-weight: 700;
   padding: 5px 12px;
