@@ -38,7 +38,7 @@ const translations = {
     "about.headline": "Engineering Intelligent Systems that Merge Mechatronics with Deep Learning",
     "about.para1": "I am a Mechatronics Engineer and AI-driven robotics researcher currently pursuing my Master’s Degree in Medical Robotics & AI in Healthcare at Mansoura University. With a B.Sc. in Mechatronics Engineering from Horus University (Class of 2023, GPA 3.15), my career has centered on solving high-stakes challenges where hardware precision meets intelligent algorithmic computation.",
     "about.para2": "My engineering philosophy revolves around translating complex theoretical science into tangible, deployable technology. As the lead innovator behind Dr. HEMA—an AI-powered diagnostic robot validated with >90% diagnostic accuracy in clinical evaluations—I have demonstrated how embedded IoT telematics and predictive machine learning can expand healthcare access to underserved communities.",
-    "about.para3": "Beyond robotics, I have held leadership roles across borders: from managing large-scale industrial operations and multi-million pound infrastructure during military service, to serving as Vice Head of Development for Saudi Arabia's national HudHud initiative, to directing international technology summits like Tunisia AI Hack with the Tunisian Ministry of Industry.",
+    "about.para3": "Beyond robotics, I have held leadership roles across borders: from managing large-scale industrial operations and multi-million pound infrastructure during military service, to directing international technology summits like Tunisia AI Hack with the Tunisian Ministry of Industry.",
     "about.locationTitle": "Location",
     "about.locationDesc": "Talkha, Dakahlia, Egypt (Global Remote)",
     "about.degreeTitle": "Academic Focus",
@@ -46,7 +46,7 @@ const translations = {
     "about.accreditationTitle": "Key Recognition",
     "about.accreditationDesc": "Top 50 Worldwide (Google Solution Challenge)",
     "about.roleTitle": "Leadership",
-    "about.roleDesc": "Ex-Vice Head of Dev (HudHud KSA) & Ex-GDSC Lead",
+    "about.roleDesc": "Ex-GDSC Lead",
 
     "usp.cardTitle": "My Core Value Proposition",
     "usp.enMain": "\"I help healthcare organizations and technology innovators bridge intelligent hardware and clinical AI to deploy life-saving medical robotics and embedded IoT systems with high-reliability performance.\"",
@@ -67,7 +67,7 @@ const translations = {
     "whyme.r2Desc": "Proven beyond theory. Validated with >90% diagnostic accuracy in clinical trials on Dr. HEMA and awarded Top 50 Globally by Google out of thousands of engineering entries worldwide.",
     "whyme.r2Highlight": "Google Solution Challenge (Top 50 Global & 3rd MENA)",
     "whyme.r3Title": "Enterprise Leadership & High-Stakes Discipline",
-    "whyme.r3Desc": "Military factory complex management experience and leadership as Vice Head of Development on Saudi Arabia's national HudHud initiative ensure industrial discipline, robust quality control, and scalable systems.",
+    "whyme.r3Desc": "Military factory complex management experience ensures industrial discipline, robust quality control, and scalable systems.",
     "whyme.r3Highlight": "Industrial operations management & high-concurrency architecture",
     "whyme.r4Title": "Certified Project Management & Agile Delivery",
     "whyme.r4Desc": "Certified Google Project Management Professional applying strict Agile/Scrum sprints, clear transparent milestones, and proactive risk mitigation. No missed deadlines, no hidden surprises.",
@@ -137,8 +137,6 @@ const translations = {
     "proj3.summary": "ESP32-driven health monitoring kiosk with 7-inch TFT display, integrating MAX30102 pulse oximeter, MLX90614 infrared contactless thermometer, and RFID attendance verification.",
     "proj4.title": "Taxonomic RAG Architecture for Cardiology Support",
     "proj4.summary": "Pioneering academic research treating LLM medical hallucinations analogous to network security intrusions, deploying an intrusion detection taxonomy for cardiology diagnostics.",
-    "proj5.title": "HudHud National Software Initiative",
-    "proj5.summary": "Led cross-functional software teams, architected microservices, and aligned multiple engineering disciplines to streamline product delivery for the national HudHud initiative in Saudi Arabia.",
     "proj6.title": "Essic Enterprise Document Intelligence System",
     "proj6.summary": "High-security institutional document numbering, verification, and automated cloud sync system built with Flask, Supabase PostgreSQL, and automated OneDrive integration.",
 
@@ -151,12 +149,6 @@ const translations = {
     "exp1.b2": "Managed cross-functional technical teams to deliver infrastructure and facility upgrades ahead of schedule.",
     "exp1.b3": "Mitigated supply chain constraints through agile resource allocation and preventive maintenance protocols.",
 
-    "exp2.role": "Vice Head of Development & Software Engineer",
-    "exp2.company": "HudHud Project (Saudi Arabia)",
-    "exp2.summary": "Spearheaded cross-functional development teams for Saudi Arabia's national HudHud initiative, aligning frontend, backend, and QA streams.",
-    "exp2.b1": "Promoted to Vice Head of Development in March 2024 after streamlining the software delivery lifecycle.",
-    "exp2.b2": "Architected robust microservices and API integrations to accommodate high-concurrency traffic.",
-    "exp2.b3": "Collaborated with stakeholders to convert strategic vision into executable technical sprints.",
 
     "exp3.role": "Expert Trainer & Technical Project Manager",
     "exp3.company": "BambooGeeks",
@@ -209,9 +201,6 @@ const translations = {
     "test2.quote": "\"Managing the Tunisia AI Hack alongside the Tunisian Ministry of Industry required flawless logistics and technical expertise. Ahmad delivered exceptional event leadership, inspiring hundreds of data scientists and engineers.\"",
     "test2.author": "BambooGeeks Leadership",
     "test2.role": "International Technology Initiatives",
-    "test3.quote": "\"As Vice Head of Development on our national project, Ahmad unified separate teams, established high coding standards, and rapidly unblocked critical bottlenecks under tight deadlines.\"",
-    "test3.author": "HudHud Project Team",
-    "test3.role": "Software Engineering Directorate, Saudi Arabia",
 
     "contact.tag": "Let's Build Something Revolutionary",
     "contact.title": "Get In Touch With Eng. Ahmad",
@@ -570,29 +559,6 @@ const caseStudiesData = {
       "أثبتت تقليصاً هائلاً في التوصيات الطبية الخاطئة."
     ],
     tech: ["Retrieval-Augmented Generation (RAG)", "Taxonomic Security Filtering", "Cardiology Ontologies", "Python", "Vector Databases"]
-  },
-
-  hudhud: {
-    title: "HudHud National Software Initiative (Saudi Arabia)",
-    titleAr: "مشروع هدهد الوطني للبرمجيات (المملكة العربية السعودية)",
-    category: "Enterprise System Architecture",
-    categoryAr: "معمارية الأنظمة المؤسسية الكبرى",
-    image: null,
-    problem: "Scaling a nationwide digital initiative demanded rigorous sprint planning, multi-repository code orchestration, and aligning disparate engineering squads under stringent delivery timelines.",
-    problemAr: "تطلب توسيع نطاق مبادرة رقمية وطنية تخطيطاً دقيقاً لسباقات التطوير، وتنسيق مستودعات الكود البرمجي المتعددة، وتوحيد فرق العمل الهندسية المختلفة تحت جداول زمنية صارمة.",
-    solution: "Spearheaded cross-functional team coordination across backend, frontend, and quality assurance. Promoted to Vice Head of Development in March 2024 to re-architect microservices, institute CI/CD practices, and guarantee product robustness under high concurrency.",
-    solutionAr: "قيادة التنسيق بين فرق التطوير (الواجهات، الباك إند، واختبار الجودة). الترقية لمنصب نائب رئيس قسم التطوير في مارس 2024 لإعادة هندسة بنية الخدمات المصغرة وتطبيق ممارسات النشر المؤتمت CI/CD وضمان استقرار النظام.",
-    impact: [
-      "Streamlined sprint velocity by 40% through unified architecture standards.",
-      "Promoted to Vice Head of Development within 4 months of tenure.",
-      "Successfully led software release milestones for key national stakeholders."
-    ],
-    impactAr: [
-      "تسريع وتيرة إنجاز المهام بنسبة 40% عبر توحيد المعايير المعمارية.",
-      "الترقية لمنصب نائب رئيس قسم التطوير تقديراً للتميز التقني والإداري.",
-      "تسليم مراحل الإطلاق البرمجية بنجاح أمام الشركاء والجهات الرسمية."
-    ],
-    tech: ["Microservices", "System Architecture", "Agile / Scrum", "DevOps & CI/CD", "Team Leadership"]
   },
 
   essic: {

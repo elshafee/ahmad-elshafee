@@ -20,7 +20,7 @@
   - *My Service / Niche*: Medical Robotics, Clinical AI Decision Support & Embedded IoT Systems.
   - *My Ideal Client*: Healthtech startups, research hospitals, and engineering organizations needing life-critical hardware-software systems.
   - *What Makes Me Different*: Dual mastery of physical mechatronics hardware (sensors, kinematic robotics, ESP32) and cutting-edge deep learning (TensorFlow, RAG, Clinical Computer Vision) with clinically validated results (>90% accuracy).
-  - *My Proof / Skills*: Lead Creator of Dr. HEMA, Google Solution Challenge Top 50 Globally & 3rd MENA, Certified TensorFlow & Project Management Professional, Ex-Vice Head of Dev at HudHud (KSA).
+  - *My Proof / Skills*: Lead Creator of Dr. HEMA, Google Solution Challenge Top 50 Globally & 3rd MENA, Certified TensorFlow & Project Management Professional.
 - **Main Statement (النسخة الأساسية)**:
   > **"I help healthcare organizations and technology innovators bridge intelligent hardware and clinical AI to deploy life-saving medical robotics and embedded IoT systems with high-reliability performance."**
 - **Punchier Alternative (البديل الأكثر قوة وجذباً)**:
